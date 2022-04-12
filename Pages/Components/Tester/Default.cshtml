@@ -1,0 +1,10 @@
+﻿@model IEnumerable<ProductDto>
+
+<div>
+    <p> This is a tester 3 view</p>
+    @foreach(var product in Model)
+    {
+        <p>Desc: @product.Description</p>
+        <p>Price: @product.Price</p>
+    }
+</div>
